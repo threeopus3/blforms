@@ -1,0 +1,192 @@
+    /*
+    .row-separator {
+        clear: both;
+    }
+
+    .gf_left_half,
+    .gf_left_third, .gf_middle_third,
+    .gf_list_2col li, .gf_list_3col li, .gf_list_4col li, .gf_list_5col li {
+        float: left;
+    }
+
+    .gf_right_half,
+    .gf_right_third {
+        float: right;
+    }
+
+    .gf_left_half, .gf_right_half,
+    .gf_list_2col li {
+        width: 49%;
+    }
+
+    .gf_list_4col li {
+        width: 24%;
+    }
+
+    .gf_list_5col li {
+        width: 19%;
+    }
+    .gf_right_half, .gf_right_third {
+        padding-right: 0;
+    }
+    .gf_left_half, .gf_right_half {
+        padding-right: 1%;
+    }
+        
+    */
+    
+    
+@media screen and (min-width: 667px) {
+
+	.gf_list_2col tbody,
+	.gf_list_2col thead,
+	.gf_list_2col gfield_list_group,
+	.gf_list_2col .gfield_list_container{
+		width:100%;
+	}
+	.gf_list_2col .gfield_list_container th,
+	.gf_list_2col .gfield_list_container td,
+	.gform_wrapper li.gfield.gf_list_2col ul.gfield_checkbox li,
+	.gform_wrapper li.gfield.gf_list_2col ul.gfield_radio li,
+	.gform_wrapper li.gfield.gf_2col ul.gfield_checkbox li,
+	.gform_wrapper li.gfield.gf_2col ul.gfield_radio li {
+		width: 50%;
+		float: left;
+		margin: 0 0 0.50em 0;
+		min-height: 1.8em;
+	}
+
+	.gform_wrapper li.gfield.gf_list_3col ul.gfield_checkbox li,
+	.gform_wrapper li.gfield.gf_list_3col ul.gfield_radio li,
+	.gform_wrapper li.gfield.gf_3col ul.gfield_checkbox li,
+	.gform_wrapper li.gfield.gf_3col ul.gfield_radio li {
+		width: 33%;
+		float: left;
+		margin: 0 0 0.50em 0;
+		min-height: 1.8em;
+	}
+
+	.gform_wrapper li.gfield.gf_list_4col ul.gfield_checkbox li,
+	.gform_wrapper li.gfield.gf_list_4col ul.gfield_radio li {
+		width: 25%;
+		float: left;
+		margin: 0 0 0.5em 0;
+		min-height: 1.8em;
+	}
+
+	.gform_wrapper li.gfield.gf_list_5col ul.gfield_checkbox li,
+	.gform_wrapper li.gfield.gf_list_5col ul.gfield_radio li {
+		width: 20%;
+		float: left;
+		margin: 0 0 0.50em 0;
+		min-height: 1.8em;
+	}
+		 
+	 /* 3 */
+	.gf_name_has_3 span,
+    .gf_left_third, .gf_middle_third, .gf_right_third,
+    .gf_list_3col li {
+        width: 33.3%!important;
+        float:left;
+        clear:none!important;
+    }
+    .gf_left_third  {
+        padding-right: 1%!important;
+    }
+    .gf_middle_third  {
+        padding-right: .5%!important;
+        padding-left: .5%!important;
+    }
+    .gf_right_third  {
+        padding-right: 0%!important;
+        padding-left: 1%!important;
+    }    
+	
+	.name_first, .name_last,
+    .gf_left_half, .gf_right_half {
+        width: 49%!important;
+        clear:none!important;
+        
+    }
+    .name_first,
+    .gf_left_half  {
+        padding-right: 1%!important;
+        float:left;
+    }
+	.name_last,
+    .gf_right_half  {
+        padding-right: 0%!important;
+        padding-left: 1%!important;
+        float:right;
+    }   
+    
+
+ 	.gf_list_2col .gfield_list_container th,
+	.gf_list_2col .gfield_list_container td {
+        padding-right: 2%!important;
+        float:left;
+    }
+	.gf_list_2col .gfield_list_container th:nth-of-type(2),
+	.gf_list_2col .gfield_list_container td:nth-of-type(2){
+        padding-right: 0%!important;
+        padding-left: 2%!important;
+        float:right;
+    }      
+    
+}
+
+.gf_invisible,.gf_hidden {
+	display:none!important;
+}
+
+.confirm1,.confirm2,.confirm3,.confirm4{
+	padding-top:0px!important;
+	padding-bottom:0px!important;
+}
+
+.gform_confirmation_wrapper br
+{
+	display: none;
+}
+
+   .gf_no_bottom_padding{
+	   margin-bottom: 0px!important;
+   }
+   .gf_less_bottom_padding{
+	   margin-bottom: 20px!important;
+   }
+   .gf_more_bottom_padding{
+	   margin-bottom: 20px!important;
+   }   
+   .gf_max_bottom_padding{
+	   margin-bottom: 40px!important;
+   }      
+
+
+   .gf_no_top_padding{
+	   margin-top: 0px!important;
+   }
+   .gf_less_top_padding{
+	   margin-top: 20px!important;
+   }
+   .gf_more_top_padding{
+	   margin-top: 20px!important;
+   }   
+   .gf_max_top_padding{
+	   margin-top: 40px!important;
+   }      
+
+
+   .gf_divider_above{
+	   padding-top: 20px!important;
+	   border-top:1px solid #ccc!important;
+   }  
+
+   .gf_divider_below{
+	   padding-bottom: 20px!important;
+	   border-bottom:1px solid #ccc!important;
+   }    
+   
+   		.gptos_terms_container{
+			height:200px!important;
+		}

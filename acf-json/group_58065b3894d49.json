@@ -1,0 +1,173 @@
+{
+    "key": "group_58065b3894d49",
+    "title": "Form Customizations",
+    "fields": [
+        {
+            "key": "field_580675ab9f85d",
+            "label": "Add logo?",
+            "name": "add_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_58065b3cc97d9",
+            "label": "Button Colour",
+            "name": "button_colour",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#27ae60"
+        },
+        {
+            "key": "field_58065bde50885",
+            "label": "Button Hover Colour",
+            "name": "button_hover_colour",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#27ae60"
+        },
+        {
+            "key": "field_58065c588cb8b",
+            "label": "Button Shadow Colour",
+            "name": "button_shadow_colour",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_58065c668cb8c",
+            "label": "Label Colour",
+            "name": "label_colour",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#27ae60"
+        },
+        {
+            "key": "field_58065c908cb8d",
+            "label": "Annual Premium Background Colour",
+            "name": "annual_premium_background_colour",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#27ae60"
+        },
+        {
+            "key": "field_58065ca68cb8e",
+            "label": "Google Analytics Code in Head",
+            "name": "google_analytics_code_in_head",
+            "type": "textarea",
+            "instructions": "Paste whatever code you want",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_580f722489097",
+            "label": "Google Analytics Code in Body",
+            "name": "google_analytics_code_in_body",
+            "type": "textarea",
+            "instructions": "Paste whatever code you want",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-form.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1477407564
+}

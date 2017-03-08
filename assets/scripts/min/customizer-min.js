@@ -1,0 +1,1 @@
+!function($){wp.customize("blogname",function(n){n.bind(function(n){$(".brand").text(n)})})}(jQuery);
